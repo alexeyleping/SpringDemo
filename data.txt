@@ -1,0 +1,12 @@
+create table product
+(
+    id int primary key,
+    name text,
+    price  double precision
+);
+
+INSERT INTO product (id, name, price) VALUES (1, 'bread', 40);
+INSERT INTO product (id, name, price) VALUES (2, 'milk', 60);
+INSERT INTO product (id, name, price) VALUES (3, 'mars', 80);
+
+http://localhost:8080/customer/1
